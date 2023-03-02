@@ -29,7 +29,7 @@
        --fonte-destaque:'Bebas Neue', cursive;
        --fonte-android:'Android', cursive;
 }
-
+ 
 * {
     margin: 0px;
     padding: 0px;
@@ -40,7 +40,7 @@ body {
     font-family: var(--fonte-padrao);
 
 
-    min-width: 400px;
+    min-width: 340px;
 }
 
 header {
