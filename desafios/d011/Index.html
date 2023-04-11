@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Alinhamento Vertical e Horisontal</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }        
+        main{
+            position: relative;
+                        
+            width: 100wh;
+            height: 100vh;
+
+            background-image: url(espaco.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        img{
+            width: 70%;
+            max-width: 400px;
+           
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            translate: -50% -50%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <img src="astronauta.png" alt="astronauta">
+    </main>
+</body>
+</html>
